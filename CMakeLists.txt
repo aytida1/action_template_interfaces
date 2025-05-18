@@ -12,7 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 # each definiton of messages, action or topic
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/CountUntil.action"
-  "MoveForward.action"
+  "action/MoveForward.action"
 )
 
 ament_export_dependencies(rosidl_default_runtime)
